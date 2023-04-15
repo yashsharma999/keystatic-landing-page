@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-pt-20 scroll-smooth;
+    /* Remove blue tap highlight on touch screens */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
